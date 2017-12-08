@@ -1,4 +1,34 @@
 # S3A4
+-----------------------------
+Please preview department.html -- this html uses transpiled js file, department.js.
+
+Problem Statement:
+
+Create an abstract class Department with one abstract method:
+
+abstract class Department {
+
+Public name: string;
+
+constructor (name) {}
+
+printName(): void { console dept name with appropriate message }
+
+abstract printMeeting(): void;
+}
+
+Now extend this abstract class using AccountingDepartment:
+
+class AccountingDepartment extends Department {
+
+//Use department class property and methods here
+
+}
+
+Again create 1 more classes for different department and extend department
+class. And then create instance for all and show output using console.
+
+-----------------------------------
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.4.
 
